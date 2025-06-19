@@ -444,7 +444,7 @@ export const cars: Car[] = [
     pricePerDay: 35000,
     image: "/images/cars/volkswagen-passat/passat3.png",
     gallery: [
-      "/images/cars/volkswagen-passat/passat5.png",
+      "./images/cars/volkswagen-passat/passat2.png",
       "/images/cars/volkswagen-passat/passat1.png",
       "/images/cars/volkswagen-passat/passat4.png",
     ],
