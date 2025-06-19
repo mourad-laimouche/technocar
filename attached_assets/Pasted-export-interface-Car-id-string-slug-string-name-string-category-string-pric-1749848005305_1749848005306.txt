@@ -1,0 +1,575 @@
+export interface Car {
+  id: string;
+  slug: string;
+  name: string;
+  category: string;
+  pricePerDay: number;
+  image: string;
+  gallery: string[];
+  description: string;
+  features: string[];
+  specifications: {
+    transmission: string;
+    fuel: string;
+    seats: number;
+    luggage: string;
+  };
+}
+
+export const cars: Car[] = [
+  {
+    id: "1",
+    slug: "toyota-camry",
+    name: "Mercedes AMG GTS",
+    category: "Sport Luxury",
+    pricePerDay: 60000,
+    image: "/images/cars/amg-gts/gts-5.png",
+    gallery: [
+      "/images/cars/amg-gts/gts-1.png",
+      "/images/cars/amg-gts/gts-2.png",
+      "/images/cars/amg-gts/gts-3.png",
+    ],
+    description: "La Mercedes-AMG GT S incarne le summum du luxe et de la sportivité. Avec son design racé et son moteur puissant, elle offre des sensations de conduite incomparables pour tous vos trajets quotidiens ou escapades d’exception.",
+    features: [
+      "Climatisation automatique",
+      "GPS intégré",
+      "Bluetooth",
+      "Caméra de recul",
+      "Sièges en cuir",
+      "Système audio premium"
+    ],
+    specifications: {
+      transmission: "Automatique",
+      fuel: "Essence",
+      seats: 2,
+      luggage: "1 valises"
+    }
+  },
+  {
+    id: "2",
+    slug: "bmw-serie3",
+    name: "Camaro",
+    category: "Sport Luxury",
+    pricePerDay: 50000,
+    image: "/images/cars/camaro/camaro-6.png",
+    gallery: [
+      "/images/cars/camaro/camaro-2.png",
+      "/images/cars/camaro/camaro-4.png",
+      "/images/cars/camaro/camaro-3.png",
+     
+    ],
+    description: "La Chevrolet Camaro incarne l’esprit de la performance américaine. Avec son look musclé et son moteur puissant, elle offre une expérience de conduite dynamique et envoûtante pour tous vos déplacements sportifs ou de loisir.",
+    features: [
+      "Système d’infodivertissement Chevrolet MyLink",
+      "Sièges sport en cuir",
+      "Échappement à valves actives",
+      "Démarrage à distance",
+      "Régulateur de vitesse adaptatif",
+      "Éclairage ambiant à LED multicolore"
+    ],
+    specifications: {
+      transmission: "Automatique",
+      fuel: "Essence",
+      seats: 2,
+      luggage: "2 valises"
+    }
+  },
+  {
+    id: "3",
+    slug: "mercedes-classec",
+    name: "Audi RS6",
+    category: "Executive",
+    pricePerDay: 55000,
+    image: "/images/cars/RS6/rs6-1.png",
+    gallery: [
+      "/images/cars/RS6/rs6-2.png",
+      "/images/cars/RS6/rs6-3.png",
+      "/images/cars/RS6/rs6-4.png",
+    ],
+    description: "L'élégance allemande à son apogée. La Mercedes Classe C offre un niveau de luxe et de confort inégalé, avec des finitions premium et une technologie de pointe pour satisfaire les conducteurs les plus exigeants.",
+    features: [
+      "Système MBUX",
+      "Sièges en cuir Nappa",
+      "Climatisation 4 zones",
+      "Système audio Burmester",
+      "Assistant de conduite",
+      "Éclairage d'ambiance"
+    ],
+    specifications: {
+      transmission: "Automatique",
+      fuel: "Essence",
+      seats: 5,
+      luggage: "3 valises"
+    }
+  },
+  {
+    id: "4",
+    slug: "kia-optima",
+    name: "Cls maybach",
+    category: "Confort Plus",
+    pricePerDay: 60000,
+    image: "/images/cars/cls-maybach/CLS 1.png",
+    gallery: [
+      "/images/cars/cls-maybach/CLS 6.png",
+      "/images/cars/cls-maybach/CLS 3.png",
+      "/images/cars/cls-maybach/CLS 10.png",
+      ],
+    description: "Design audacieux et technologie innovante caractérisent la Kia Optima. Cette berline moderne combine style contemporain et équipements de pointe pour une expérience de conduite dynamique et confortable.",
+    features: [
+      "Écran tactile 8 pouces",
+      "Sièges chauffants/ventilés",
+      "Démarrage sans clé",
+      "Caméra 360°",
+      "Régulateur de vitesse",
+      "Système audio JBL"
+    ],
+    specifications: {
+      transmission: "Automatique",
+      fuel: "Essence",
+      seats: 5,
+      luggage: "3 valises"
+    }
+  },
+  {
+    id: "5",
+    slug: "audi-a4",
+    name: "Audi A6",
+    category: "Premium Sport",
+    pricePerDay: 119,
+    image: "/images/cars/a6/a6-5.png",
+    gallery: [
+      "/images/cars/a6/a6-2.png",
+      "/images/cars/a6/a6-3.png",
+      "/images/cars/a6/a6-4.png",
+      ],
+    description: "L'Audi A4 combine élégance allemande et technologie de pointe. Cette berline premium offre une expérience de conduite raffinée avec des performances exceptionnelles et un design intemporel.",
+    features: [
+      "Système MMI Navigation",
+      "Sièges sport en cuir",
+      "Phares LED Matrix",
+      "Régulateur adaptatif",
+      "Bang & Olufsen Sound",
+      "Assistance parking"
+    ],
+    specifications: {
+      transmission: "Automatique",
+      fuel: "Essence",
+      seats: 5,
+      luggage: "3 valises"
+    }
+  },
+  {
+    id: "6",
+    slug: "porsche-macan",
+    name: "Porsche cayenne",
+    category: "SUV Premium",
+    pricePerDay: 199,
+    image: "images/cars/cayenne/cayenne-1.png",
+    gallery: [
+      "/images/cars/cayenne/cayenne-2.png",
+      "/images/cars/cayenne/cayenne-3.png",
+      "/images/cars/cayenne/cayenne-4.png",
+      ],
+    description: "Le Porsche Macan redéfinit les SUV compacts premium. Avec son ADN sportif légendaire et son luxe raffiné, il offre une polyvalence exceptionnelle pour tous vos déplacements urbains et escapades.",
+    features: [
+      "PCM Porsche Communication",
+      "Suspension pneumatique",
+      "Toit panoramique",
+      "Système audio Bose",
+      "Mode Sport Chrono",
+      "Caméras 360°"
+    ],
+    specifications: {
+      transmission: "Automatique",
+      fuel: "Essence",
+      seats: 5,
+      luggage: "4 valises"
+    }
+  },
+  {
+    id: "7",
+    slug: "volkswagen-golf",
+    name: "Volkswagen Golf 8R",
+    category: "Compacte Premium",
+    pricePerDay: 79,
+    image: "images/cars/golf-8r/8R 1.png",
+    gallery: [
+      "/images/cars/golf-8r/8R 2.png",
+      "/images/cars/golf-8r/8R 3.png",
+      "/images/cars/golf-8r/8R 4.png",
+      ],
+    description: "La Volkswagen Golf redéfinit l'excellence dans la catégorie des compactes premium avec son design intemporel et sa technologie de pointe.",
+    features: ["Système multimédia", "Caméra de recul", "Régulateur de vitesse", "Climatisation", "Bluetooth", "Jantes alliage"],
+    specifications: { transmission: "Manuelle", fuel: "Essence", seats: 5, luggage: "2 valises" }
+  },
+  {
+    id: "8",
+    slug: "renault-clio",
+    name: "porsche macan",
+    category: "Citadine",
+    pricePerDay: 59,
+    image: "images/cars/porshe-macan/porshe2.png",
+    gallery: [
+      "/images/cars/porshe-macan/porshe3.png",
+      "/images/cars/porshe-macan/porshe4.png",
+      "/images/cars/porshe-macan/porshe5.png",
+      ],
+    description: "La Renault Clio combine style français et praticité urbaine pour une expérience de conduite agréable en ville.",
+    features: ["Écran tactile", "Climatisation manuelle", "Bluetooth", "Direction assistée", "Verrouillage centralisé", "Radio"],
+    specifications: { transmission: "Manuelle", fuel: "Essence", seats: 5, luggage: "2 valises" }
+  },
+  {
+    id: "9",
+    slug: "peugeot-308",
+    name: "Audi rs3",
+    category: "Berline Moderne",
+    pricePerDay: 85,
+    image: "images/cars/rs3/rs3-1.png",
+    gallery: [
+      "/images/cars/rs3/rs3-2.png",
+      "/images/cars/rs3/rs3-3.png",
+      "/images/cars/rs3/rs3-4.png",
+      ],
+    description: "La Peugeot 308 offre un design élégant et des technologies modernes pour un confort de conduite exceptionnel.",
+    features: ["i-Cockpit Peugeot", "GPS 3D", "Caméra arrière", "Climatisation auto", "Sièges chauffants", "Cruise control"],
+    specifications: { transmission: "Automatique", fuel: "Essence", seats: 5, luggage: "3 valises" }
+  },
+  {
+    id: "10",
+    slug: "ford-focus",
+    name: "porsche panamera",
+    category: "Familiale",
+    pricePerDay: 75,
+    image: "images/cars/panamera/panamera-2.png",
+    gallery: [
+      "/images/cars/panamera/panamera-1.png",
+      "/images/cars/panamera/panamera-5.png",
+        "/images/cars/panamera/panamera-6.png",
+      ],
+    description: "La Ford Focus allie robustesse américaine et efficacité européenne pour répondre à tous vos besoins familiaux.",
+    features: ["SYNC 3", "Caméra de recul", "Capteurs parking", "Climatisation", "Bluetooth", "Volant multifonction"],
+    specifications: { transmission: "Manuelle", fuel: "Essence", seats: 5, luggage: "3 valises" }
+  },
+  {
+    id: "11",
+    slug: "nissan-qashqai",
+    name: "Glc maybach",
+    category: "SUV Compact",
+    pricePerDay: 95,
+    image: "images/cars/glc-maybach/glc-1.png",
+    gallery: [
+      "/images/cars/glc-maybach/glc-1.png",
+      "/images/cars/glc-maybach/glc-2.png",
+      "/images/cars/glc-maybach/glc-3.png",
+      ],
+    description: "Le Nissan Qashqai pionnier des SUV urbains, offre polyvalence et confort pour vos aventures citadines et escapades.",
+    features: ["NissanConnect", "Caméras 360°", "ProPILOT", "Climatisation dual-zone", "Toit panoramique", "Jantes 19 pouces"],
+    specifications: { transmission: "Automatique", fuel: "Essence", seats: 5, luggage: "4 valises" }
+  },
+  {
+    id: "12",
+    slug: "hyundai-tucson",
+    name: "audi A1",
+    category: "SUV Moderne",
+    pricePerDay: 105,
+    image: "images/cars/A1/A1-4.png",
+    gallery: [
+      "/images/cars/A1/A1-2.png",
+      "/images/cars/A1/A1-9.png",
+      "/images/cars/A1/A1-8.png",
+      ],
+    description: "Le Hyundai Tucson se distingue par son design futuriste et ses technologies avancées pour une expérience de conduite révolutionnaire.",
+    features: ["Écran 12.3 pouces", "Charging pad", "SmartSense", "Climatisation auto", "Aide au stationnement", "LED adaptatifs"],
+    specifications: { transmission: "Automatique", fuel: "Hybride", seats: 5, luggage: "4 valises" }
+  },
+  {
+    id: "13",
+    slug: "seat-leon",
+    name: "merc A120",
+    category: "Sportive",
+    pricePerDay: 82,
+    image: "/images/cars/a120/a120-1.png",
+    gallery: [
+      "/images/cars/a120/a120-2.png",
+      "/images/cars/a120/a120-3.png",
+      
+    ],
+    description: "La Seat Leon apporte l'esprit méditerranéen à la conduite avec son caractère dynamique et son design expressif.",
+    features: ["Media System", "Virtual Cockpit", "Sièges sport", "Éclairage d'ambiance", "Paddle shifts", "Mode Sport"],
+    specifications: { transmission: "Manuelle", fuel: "Essence", seats: 5, luggage: "3 valises" }
+  },
+  {
+    id: "14",
+    slug: "mazda-cx5",
+    name: "tiguan",
+    category: "SUV Premium",
+    pricePerDay: 115,
+    image: "images/cars/tiguan/tiguan-2.png",
+    gallery: [
+       "/images/cars/tiguan/tiguan-2.png",
+      "/images/cars/tiguan/tiguan-3.png",
+      "/images/cars/tiguan/tiguan-1.png",
+    ],
+    description: "Le Mazda CX-5 incarne la philosophie KODO avec un design émotionnel et une technologie SKYACTIV pour une efficacité optimale.",
+    features: ["MAZDA CONNECT", "Bose Audio", "i-ACTIVSENSE", "Cuir Nappa", "Toit ouvrant", "AWD disponible"],
+    specifications: { transmission: "Automatique", fuel: "Essence", seats: 5, luggage: "4 valises" }
+  },
+  {
+    id: "15",
+    slug: "citroen-c4",
+    name: "jeep",
+    category: "Confort",
+    pricePerDay: 77,
+    image: "/images/cars/jeep/jeep-1.png",
+    gallery: [
+      "/images/cars/jeep/jeep-2.png",
+      "/images/cars/jeep/jeep-3.png",
+      
+
+    ],
+    description: "La Citroën C4 privilégie le confort avec ses sièges Advanced Comfort et son design audacieux typiquement français.",
+    features: ["Écran 10 pouces", "Wireless charging", "Highway Driver Assist", "Suspension hydraulique", "ConnectedCAM", "Miroir Citroën"],
+    specifications: { transmission: "Automatique", fuel: "Électrique", seats: 5, luggage: "3 valises" }
+  },
+  {
+    id: "16",
+    slug: "opel-corsa",
+    name: "audi Q3",
+    category: "Urbaine",
+    pricePerDay: 65,
+    image: "/images/cars/Q3/Q3-2.png",
+    gallery: [
+      "/images/cars/Q3/Q3-3.png",
+      "/images/cars/Q3/Q3-5.png",
+    ],
+    description: "L'Opel Corsa nouvelle génération allie design allemand et agilité urbaine pour une mobilité moderne et efficace.",
+    features: ["Multimedia Navi Pro", "IntelliLux LED", "Keyless", "Climatisation auto", "Caméra arrière", "Jantes diamantées"],
+    specifications: { transmission: "Manuelle", fuel: "Essence", seats: 5, luggage: "2 valises" }
+  },
+  {
+    id: "17",
+    slug: "lexus-is",
+    name: "jaguar-typeR",
+    category: "Luxury Sport",
+    pricePerDay: 165,
+    image: "images/cars/jaguar-typeR/jaguar-1.png",
+    gallery: [
+      "/images/cars/jaguar-typeR/jaguar-2.png",
+      "/images/cars/jaguar-typeR/jaguar-3.png",
+    
+    ],
+    description: "La Lexus IS redéfinit le luxe sportif japonais avec son savoir-faire Takumi et ses performances exceptionnelles.",
+    features: ["Lexus Interface", "Mark Levinson", "LSS+ 2.5", "Cuir premium", "Suspension adaptative", "F Sport package"],
+    specifications: { transmission: "Automatique", fuel: "Hybride", seats: 5, luggage: "3 valises" }
+  },
+  {
+    id: "18",
+    slug: "volvo-xc60",
+    name: "taigo",
+    category: "SUV Sécurité",
+    pricePerDay: 135,
+    image: "images/cars/taigo/taigo-1.png",
+    gallery: [
+     "/images/cars/taigo/taigo-1.png",
+      "/images/cars/taigo/taigo-2.png",
+   
+    ],
+    description: "Le Volvo XC60 place la sécurité au cœur de l'innovation avec un design scandinave épuré et des technologies avancées.",
+    features: ["Sensus Connect", "Bowers & Wilkins", "Pilot Assist", "Air suspension", "Panoramic roof", "City Safety"],
+    specifications: { transmission: "Automatique", fuel: "Hybride", seats: 5, luggage: "4 valises" }
+  },
+  {
+    id: "19",
+    slug: "infiniti-q50",
+    name: "Troc cabriolet",
+    category: "Luxury Performance",
+    pricePerDay: 155,
+    image: "images/cars/Troc-cabriolet/troc 1.png",
+    gallery: [
+      "/images/cars/Troc-cabriolet/troc 2.png",
+      "/images/cars/Troc-cabriolet/troc 4.png",
+      
+    ],
+    description: "L'Infiniti Q50 combine l'art japonais de l'hospitalité Omotenashi avec des performances inspirées de la F1.",
+    features: ["InTouch dual screen", "Bose Studio", "ProACTIVE", "Cuir semi-aniline", "Direct Adaptive Steering", "Dynamic Sunroof"],
+    specifications: { transmission: "Automatique", fuel: "Essence", seats: 5, luggage: "3 valises" }
+  },
+  {
+    id: "20",
+    slug: "jaguar-xe",
+    name: "range rover evoque",
+    category: "British Luxury",
+    pricePerDay: 175,
+    image: "/images/cars/range-rover-evoque/evoque1.png",
+    gallery: [
+      "/images/cars/range-rover-evoque/evoque2.png",
+      "/images/cars/range-rover-evoque/evoque3.png",
+  
+    ],
+    description: "La Jaguar XE incarne l'élégance britannique et la sportivité avec son châssis en aluminium et son raffinement légendaire.",
+    features: ["InControl Touch Pro", "Meridian Audio", "All Surface Progress Control", "Cuir Windsor", "Adaptive LED", "Jaguar Drive Control"],
+    specifications: { transmission: "Automatique", fuel: "Essence", seats: 5, luggage: "3 valises" }
+  },
+  {
+    id: "21",
+    slug: "cadillac-ats",
+    name: "mercedes gle maybach",
+    category: "American Luxury",
+    pricePerDay: 145,
+    image: "/images/cars/GLE-maybach/gle-1.png",
+    gallery: [
+    "/images/cars/GLE-maybach/gle-2.png",
+      "/images/cars/GLE-maybach/gle-3.png",
+
+    ],
+    description: "La Cadillac ATS apporte le luxe américain moderne avec un design audacieux et des technologies de pointe.",
+    features: ["CUE Infotainment", "Bose Centerpoint", "Magnetic Ride Control", "Recaro seats", "HID headlamps", "Performance package"],
+    specifications: { transmission: "Automatique", fuel: "Essence", seats: 5, luggage: "3 valises" }
+  },
+  {
+    id: "22",
+    slug: "genesis-g70",
+    name: "honda civic",
+    category: "Korean Luxury",
+    pricePerDay: 125,
+    image: "/images/cars/honda-civic2020/honda1.jpg",
+    gallery: [
+      "/images/cars/honda-civic2020/honda2.jpg",
+      "/images/cars/honda-civic2020/honda3.jpg",
+    ],
+    description: "La Genesis G70 redéfinit le luxe coréen avec un design athlétique et un niveau d'équipement exceptionnel.",
+    features: ["Genesis Connected Services", "Lexicon Audio", "SmartSense", "Nappa leather", "Adaptive suspension", "Brembo brakes"],
+    specifications: { transmission: "Automatique", fuel: "Essence", seats: 5, luggage: "3 valises" }
+  },
+  {
+    id: "23",
+    slug: "alfa-romeo-giulia",
+    name: "fiat doblo",
+    category: "Italian Passion",
+    pricePerDay: 139,
+    image: "/images/cars/fiat-doblo/doblo1.png",
+    gallery: [
+     "/images/cars/fiat-doblo/doblo2.png",
+      "/images/cars/fiat-doblo/doblo3.png",
+    
+    ],
+    description: "L'Alfa Romeo Giulia incarne la passion italienne avec son design émotionnel et ses performances dignes d'une sportive pure.",
+    features: ["Uconnect 4C NAV", "Harman Kardon", "Autonomous Emergency Brake", "Cuir italien", "Active suspension", "DNA selector"],
+    specifications: { transmission: "Automatique", fuel: "Essence", seats: 5, luggage: "3 valises" }
+  },
+  {
+    id: "24",
+    slug: "tesla-model3",
+    name: "Tesla Model 3",
+    category: "Électrique Premium",
+    pricePerDay: 110,
+    image: "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+    gallery: [
+       "/images/cars/RS6/rs6-4.png",
+      "/images/cars/RS6/rs6-4.png",
+      "/images/cars/RS6/rs6-4.png",
+    ],
+    description: "La Tesla Model 3 révolutionne la mobilité électrique avec son autopilot avancé et son écran central minimaliste.",
+    features: ["Autopilot", "Superchargeur", "Écran 15 pouces", "Glass roof", "Premium audio", "Over-the-air updates"],
+    specifications: { transmission: "Automatique", fuel: "Électrique", seats: 5, luggage: "3 valises" }
+  },
+  {
+    id: "25",
+    slug: "range-rover-evoque",
+    name: "Range Rover Evoque",
+    category: "SUV Luxury",
+    pricePerDay: 189,
+    image: "https://images.unsplash.com/photo-1544829099-b9a0c5303bea?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+    gallery: [
+       "/images/cars/RS6/rs6-4.png",
+      "/images/cars/RS6/rs6-4.png",
+      "/images/cars/RS6/rs6-4.png",
+    ],
+    description: "Le Range Rover Evoque combine le luxe britannique avec un design urbain révolutionnaire et des capacités tout-terrain.",
+    features: ["Touch Pro Duo", "Meridian Surround", "ClearSight", "Windsor leather", "Adaptive dynamics", "Terrain Response 2"],
+    specifications: { transmission: "Automatique", fuel: "Essence", seats: 5, luggage: "4 valises" }
+  },
+  {
+    id: "26",
+    slug: "maserati-ghibli",
+    name: "Maserati Ghibli",
+    category: "Italian Luxury",
+    pricePerDay: 220,
+    image: "https://images.unsplash.com/photo-1494905998402-395d579af36f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+    gallery: [
+ "/images/cars/RS6/rs6-4.png",
+      "/images/cars/RS6/rs6-4.png",
+      "/images/cars/RS6/rs6-4.png",
+    ],
+    description: "La Maserati Ghibli incarne l'excellence italienne avec son moteur Ferrari et son design signé par le Centro Stile Maserati.",
+    features: ["Maserati Touch Control Plus", "Bowers & Wilkins", "Adaptive cruise control", "Pieno Fiore leather", "Skyhook suspension", "Sport mode"],
+    specifications: { transmission: "Automatique", fuel: "Essence", seats: 5, luggage: "3 valises" }
+  },
+  {
+    id: "27",
+    slug: "acura-tlx",
+    name: "Acura TLX",
+    category: "Sport Sedan",
+    pricePerDay: 118,
+    image: "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+    gallery: [
+ "/images/cars/RS6/rs6-4.png",
+      "/images/cars/RS6/rs6-4.png",
+      "/images/cars/RS6/rs6-4.png",
+    ],
+    description: "L'Acura TLX combine la fiabilité japonaise avec des performances sportives et un design premium raffiné.",
+    features: ["True Touchpad Interface", "ELS Studio 3D", "AcuraWatch", "Milano leather", "Adaptive damper system", "Precision All-Wheel Steer"],
+    specifications: { transmission: "Automatique", fuel: "Essence", seats: 5, luggage: "3 valises" }
+  },
+  {
+    id: "28",
+    slug: "lincoln-mkz",
+    name: "Lincoln MKZ",
+    category: "American Comfort",
+    pricePerDay: 135,
+    image: "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+    gallery: [
+ "/images/cars/RS6/rs6-4.png",
+      "/images/cars/RS6/rs6-4.png",
+      "/images/cars/RS6/rs6-4.png",
+    ],
+    description: "La Lincoln MKZ offre un sanctuaire de tranquillité avec un design sophistiqué et des technologies de confort avancées.",
+    features: ["SYNC 3", "Revel Audio", "Pre-Collision Assist", "Bridge of Weir leather", "Adaptive suspension", "Panoramic glass roof"],
+    specifications: { transmission: "Automatique", fuel: "Hybride", seats: 5, luggage: "3 valises" }
+  },
+  {
+    id: "29",
+    slug: "ds7-crossback",
+    name: "DS 7 Crossback",
+    category: "French Luxury",
+    pricePerDay: 128,
+    image: "https://images.unsplash.com/photo-1494976976558-3d6b3b2b9d1f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+    gallery: [
+ "/images/cars/RS6/rs6-4.png",
+      "/images/cars/RS6/rs6-4.png",
+      "/images/cars/RS6/rs6-4.png",
+    ],
+    description: "Le DS 7 Crossback réinvente le luxe à la française avec son savoir-faire artisanal et ses innovations technologiques.",
+    features: ["DS Connect Nav", "Focal Electra", "DS Active Scan Suspension", "Cuir Nappa Watch", "DS Matrix LED Vision", "Night Vision"],
+    specifications: { transmission: "Automatique", fuel: "Hybride", seats: 5, luggage: "4 valises" }
+  },
+  {
+    id: "30",
+    slug: "bentley-continental",
+    name: "Bentley Continental GT",
+    category: "Ultra Luxury",
+    pricePerDay: 450,
+    image: "https://images.unsplash.com/photo-1555215695-3004980ad54e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+    gallery: [
+       "/images/cars/RS6/rs6-4.png",
+      "/images/cars/RS6/rs6-4.png",
+      "/images/cars/RS6/rs6-4.png",
+    ],
+    description: "La Bentley Continental GT représente l'excellence britannique absolue avec son moteur W12 et son luxe artisanal inégalé.",
+    features: ["Bentley Rotating Display", "Naim for Bentley", "City & Touring specification", "Crown Cut Walnut", "Air suspension", "Mulliner details"],
+    specifications: { transmission: "Automatique", fuel: "Essence", seats: 4, luggage: "2 valises" }
+  }
+];
+
+export const getFeaturedCars = () => cars.slice(0, 4);
+export const getCarBySlug = (slug: string) => cars.find(car => car.slug === slug);

@@ -1,0 +1,10 @@
+{
+  "name": "technocars-website",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "cd client && npm install && npx vite build && cd .. && cp -r client/dist/* . && cp _redirects dist/"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

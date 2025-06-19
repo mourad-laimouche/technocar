@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 0%; /* #000000 */
+  --foreground: 0 0% 100%; /* #FFFFFF */
+  --muted: 0 0% 15%; /* #262626 */
+  --muted-foreground: 0 0% 70%; /* #B3B3B3 */
+  --popover: 0 0% 5%; /* #0D0D0D */
+  --popover-foreground: 0 0% 100%; /* #FFFFFF */
+  --card: 0 0% 8%; /* #141414 */
+  --card-foreground: 0 0% 100%; /* #FFFFFF */
+  --border: 0 0% 20%; /* #333333 */
+  --input: 0 0% 20%; /* #333333 */
+  --primary: 30 100% 50%;
+  --primary-foreground: 0 0% 0%; /* #000000 */
+  --secondary: 0 0% 15%; /* #262626 */
+  --secondary-foreground: 0 0% 100%; /* #FFFFFF */
+  --accent: 30 100% 50%; /* Orange comme primary */
+  --accent-foreground: 0 0% 0%; /* #000000 */
+  --destructive: 0 84% 60%; /* #EF4444 */
+  --destructive-foreground: 0 0% 100%; /* #FFFFFF */
+  --ring: 30 100% 50%; /* Orange comme primary */
+  --radius: 0.5rem;
+}
+
+@layer base {
+  * {
+    border-color: hsl(var(--border));
+  }
+
+  body {
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  .hero-gradient {
+    background: linear-gradient(135deg, rgba(0,0,0,0.8) 0%, rgba(255,215,0,0.1) 100%);
+  }
+  
+  .gold-button {
+    @apply bg-primary text-primary-foreground hover:bg-accent transition-all duration-300 transform hover:scale-105;
+  }
+  
+  .gold-outline-button {
+    @apply border-2 border-primary text-primary hover:bg-primary/20 hover:border-primary hover:text-primary transition-all duration-300;
+  }
+}
+
+/* Swiper customization */
+.swiper-pagination-bullet-active {
+  background-color: hsl(var(--primary)) !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: hsl(var(--primary)) !important;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 20px !important;
+}

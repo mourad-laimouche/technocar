@@ -1,0 +1,69 @@
+
+📝 Description complète du site de location de voitures
+🎨 Thème général
+• Couleurs : 
+• Fond principal : noir (#000000)
+• Texte : blanc (#FFFFFF) ou doré pour les accents
+• Couleur secondaire pour les boutons ou survol : doré ou jaune lumineux
+• Police : Moderne, lisible, avec un style professionnel
+• Style : Élégant, minimaliste, professionnel
+1️⃣ Page d’accueil (index.html)
+🔝 Navbar (toujours visible en haut) :
+• Logo à gauche
+• Liens de navigation à droite : Accueil | Voitures | À propos | Contact
+• Apparence : fond noir, texte blanc ou doré, survol avec effet doré
+🏁 Section d’introduction (Hero Section) :
+• Image de fond ou animation subtile
+• Texte : « Louez une voiture de rêve aujourd'hui »
+• Bouton d’action : « Voir nos modèles »
+🚗 Section « Nos modèles » (Aperçu) :
+• Présente 4 modèles de voitures (ex : Toyota, BMW, Mercedes, Kia)
+• Chaque modèle est présenté sous forme de carte avec : 
+• Image
+• Nom de la voiture
+• Bouton « Détails »
+• Un bouton « Voir tout » en bas ➝ redirige vers la page /voitures.html
+2️⃣ Page de toutes les voitures (voitures.html)
+• Affiche tous les modèles disponibles
+• Disposition en grille responsive
+• Chaque voiture a : 
+• Image principale
+• Nom
+• Prix/jour
+• Bouton « Voir plus » ➝ redirige vers sa page dédiée
+3️⃣ Page individuelle pour chaque voiture (ex : toyota-camry.html)
+🧱 Contenu :
+• Garde la même Navbar que la page principale
+• Titre de la voiture
+• Galerie d’images swipable avec : 
+• Plusieurs photos de la voiture
+• Un slide avec un modèle 3D interactif (Sketchfab ou Spline)
+• Description de la voiture
+• Caractéristiques techniques (boîte, carburant, places, options…)
+• Prix par jour
+• Bouton « Réserver » ➝ redirige vers WhatsApp avec un message pré-rempli : 
+https://wa.me/NUMERO?text=Je souhaite réserver la voiture [Nom du modèle]
+4️⃣ Page À propos (about.html)
+• Texte de présentation de l’entreprise
+• Photos de l’équipe ou du garage
+• Mission, valeurs, professionnalisme
+5️⃣ Page Contact (contact.html)
+• Formulaire de contact (Nom, Email, Message)
+• Informations de contact : 
+• Adresse de l’agence
+• Téléphone
+• WhatsApp (lien direct)
+• Email
+• Carte Google Maps intégrée (facultatif)
+⬇️ Footer (facultatif pour l’instant)
+• Pas encore défini, mais laisser un emplacement vide pour le futur
+✅ Fonctionnalités techniques
+• Swipe pour galerie d’images : via Swiper.js
+• Modèle 3D interactif dans chaque page de voiture
+• Redirection WhatsApp personnalisée sur le bouton « Réserver »
+• Site responsive : adapté aux mobiles et tablettes
+• Code structuré proprement : HTML, CSS séparés (ou Tailwind si désiré)
+• SEO friendly : chaque voiture a sa propre page avec balises bien remplies
+
+
+

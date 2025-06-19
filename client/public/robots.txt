@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://technocars.replit.app/sitemap.xml
