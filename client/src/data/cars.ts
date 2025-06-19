@@ -442,11 +442,11 @@ export const cars: Car[] = [
     name: "Volkswagen Passat", 
     category: "Berline Familiale Premium",
     pricePerDay: 35000,
-    image: "/images/cars/volkswagen-passat/passat3.png",
+    image: "/images/cars/volkswagen-passat/passat3.jpg",
     gallery: [
-      "./images/cars/volkswagen-passat/passat2.png",
-      "/images/cars/volkswagen-passat/passat1.png",
-      "/images/cars/volkswagen-passat/passat4.png",
+      "./images/cars/volkswagen-passat/passat2.jpg",
+      "/images/cars/volkswagen-passat/passat1.jpg",
+      "/images/cars/volkswagen-passat/passat4.jpg",
     ],
     description: "La Volkswagen Passat incarne l'excellence de la berline familiale allemande. Spacieuse et élégante, parfaite pour les déplacements professionnels et familiaux.",
     features: [
