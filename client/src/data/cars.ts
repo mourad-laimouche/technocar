@@ -293,7 +293,7 @@ export const cars: Car[] = [
     slug: "t-roc-cabriolet",
     name: "Volkswagen T-Roc Cabriolet", 
     category: "SUV Cabriolet",
-    pricePerDay: 35000,
+    pricePerDay: 30000,
     image: "/images/cars/volkswagen-t-roc/troc 1_1749866915805.png",
     gallery: [
       "/images/cars/volkswagen-t-roc/troc 2_1749866915832.png",
@@ -350,31 +350,31 @@ export const cars: Car[] = [
   // Location 3 Million 500 (35 000 DA)
   {
     id: "13",
-    slug: "classe-a-23-24",
-    name: "Mercedes Classe A 23/24", 
-    category: "Compacte Premium",
-    pricePerDay: 35000,
-    image: "/images/cars/mercedes-a120/a120-1_1749864669974.png",
+    slug: "audi-a6",
+    name: "Audi A6", 
+    category: "berline Premium",
+    pricePerDay: 45000,
+    image: "/images/cars/audi-a6/a6-1_1749864669974.png",
     gallery: [
-      "/images/cars/mercedes-a120/a120-2_1749864669960.png",
-      "/images/cars/mercedes-a120/a120-4_1749864669972.png",
-      "/images/cars/mercedes-a120/a120-5_1749864669973.png",
+      "/images/cars/audi-a6/a6-1_1749864669974.png",
+      "/images/cars/audi-a6//a6-3_1749864647989.png",
+      "/images/cars/audi-a6/a6-5_1749864647990.png",
     ],
-    description: "La Mercedes Classe A 23/24 représente la dernière évolution de la compacte premium allemande. Design moderne et technologies de pointe.",
-    features: [
-      "MBUX dernière génération",
-      "Éclairage LED Matrix",
-      "Sièges sport premium", 
-      "Climatisation automatique",
-      "Assistant de parking",
-      "Connectivité Mercedes me"
-    ],
-    specifications: {
-      transmission: "Automatique",
-      fuel: "Essence",
-      seats: 5,
-      luggage: "3 valises"
-    }
+    description: "L’Audi A6 incarne l’élégance et l’innovation de la berline premium allemande. Offrant confort, technologies de pointe et performances raffinées, elle transforme chaque trajet en une expérience haut de gamme.",
+   features: [
+  "Système MMI Navigation Plus avec écran tactile",
+  "Système audio Bang & Olufsen",
+  "Éclairage d’ambiance personnalisable",
+  "Climatisation automatique 4 zones",
+  "Sièges avant chauffants et ventilés",
+  "Assistant de conduite adaptatif"
+],
+specifications: {
+  transmission: "Automatique S tronic",
+  fuel: "Essence ou Diesel",
+  seats: 5,
+  luggage: "5 valises"
+  },
   },
 
   // Location 3 Million 500 (35 000 DA)
@@ -473,7 +473,7 @@ export const cars: Car[] = [
     slug: "audi-a1",
     name: "Audi A1", 
     category: "Citadine Premium",
-    pricePerDay: 24000,
+    pricePerDay: 20000,
     image: "/images/cars/audi-a1/A1-1_1749863615324.png",
     gallery: [
       "/images/cars/audi-a1/A1-2_1749863615330.png",
@@ -505,7 +505,7 @@ export const cars: Car[] = [
     slug: "seat-leon",
     name: "SEAT León", 
     category: "Compacte Sportive",
-    pricePerDay: 24000,
+    pricePerDay: 23000,
     image: "/images/cars/audi-a1/A1-1_1749863615324.png",
     gallery: [
       "/images/cars/audi-a1/A1-2_1749863615330.png",
