@@ -115,8 +115,8 @@ export default function RentalCalculator({ car }: RentalCalculatorProps) {
   };
 
   const rawTotalPrice = calculateTotalPrice(days, car.name);
-  const totalPrice = Math.round(rawTotalPrice / 100) * 100; // Arrondi au multiple de 1 00 DA le plus proche
-  const currentPricePerDay = Math.round((totalPrice / days) / 100) * 100; // Arrondi au multiple de 1 00 DA
+  const totalPrice = rawTotalPrice; // Arrondi au multiple de 1 00 DA le plus proche
+  const currentPricePerDay = totalPrice ; // Arrondi au multiple de 1 00 DA
 
   // Fonction pour obtenir le badge de réduction
   const getDiscountBadge = (numberOfDays: number) => {
