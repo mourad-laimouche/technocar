@@ -1,4 +1,4 @@
-/*import { useState } from 'react';
+import { useState } from 'react';
 import { Car } from '@/data/cars';
 import { RotateCcw, Eye, Settings } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -13,7 +13,7 @@ export default function Viewer360({ car }: Viewer360Props) {
 
   return (
     <div className="relative w-full h-[500px] bg-gradient-to-br from-gray-900 to-gray-800 rounded-lg overflow-hidden">
-      {/* Header *//*}
+      {/* Header */}
       <div className="absolute top-4 left-4 z-10">
         <div className="flex items-center space-x-2 bg-black/50 backdrop-blur-sm rounded-lg px-3 py-2">
           <RotateCcw className="h-4 w-4 text-primary animate-spin" />
@@ -21,14 +21,14 @@ export default function Viewer360({ car }: Viewer360Props) {
         </div>
       </div>
 
-      {/* Status Badge *//*}
+      {/* Status Badge */}
       <div className="absolute top-4 right-4 z-10">
         <div className="bg-orange-500/20 backdrop-blur-sm border border-orange-500/30 rounded-lg px-3 py-2">
           <span className="text-orange-300 text-sm font-medium">En développement</span>
         </div>
       </div>
 
-      {/* Main Content Area *//*}
+      {/* Main Content Area */}
       <div className="flex items-center justify-center h-full">
         <Card className="bg-black/30 backdrop-blur-sm border-primary/20 max-w-md mx-4">
           <CardContent className="p-8 text-center">
@@ -78,7 +78,7 @@ export default function Viewer360({ car }: Viewer360Props) {
         </Card>
       </div>
 
-      {/* Background Pattern *//*}
+      {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="w-full h-full" style={{
           backgroundImage: `
@@ -88,7 +88,7 @@ export default function Viewer360({ car }: Viewer360Props) {
         }} />
       </div>
 
-      {/* Loading Animation *//*}
+      {/* Loading Animation */}
       <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2">
         <div className="flex space-x-1">
           {[0, 1, 2].map((i) => (
@@ -105,4 +105,4 @@ export default function Viewer360({ car }: Viewer360Props) {
       </div>
     </div>
   );
-}*/
+}
