@@ -77,35 +77,7 @@ export const cars: Car[] = [
     }
   },
 
-  // Location 6 Million (60 000 DA)
-  {
-    id: "3",
-    slug: "macan-gts",
-    name: "Porsche Macan GTS",
-    category: "SUV Sport Premium",
-    pricePerDay: 60000,
-    image: "/images/cars/porsche-macan/porshe1.png",
-    gallery: [
-      "/images/cars/porsche-macan/porshe3.png",
-      "/images/cars/porsche-macan/porshe4.png", 
-      "/images/cars/porsche-macan/porshe5.png",
-    ],
-    description: "Le Porsche Macan GTS incarne la sportivité SUV allemande à son apogée. Version GTS haute performance avec finitions sport exclusives.",
-    features: [
-      "PCM 6.0 système infotainment",
-      "Système audio Bose Surround",
-      "Porsche Traction Management", 
-      "Intérieur cuir sport GTS",
-      "Suspension pneumatique GTS",
-      "Jantes Turbo 21 pouces"
-    ],
-    specifications: {
-      transmission: "Automatique",
-      fuel: "Essence",
-      seats: 5, 
-      luggage: "4 valises"
-    }
-  },
+ 
 
   // Location 6 Million (60 000 DA)
   {
