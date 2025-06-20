@@ -555,7 +555,35 @@ export const cars: Car[] = [
       seats: 5,
       luggage: "3 valises"
     }
-  }
+  },
+   {
+    id: "20", // Augmenter l'ID de 1
+    slug: "jeep", // Nom unique pour l'URL
+    name: "jeep renegade", 
+    category: "SUV Compact",
+    pricePerDay: 35000, // Prix en DA
+    image: "/images/cars/jeep-renegade/jeep-1.jpg", // Photo principale
+    gallery: [
+      "images/cars/jeep-renegade/jeep-2.jpg",
+      "images/cars/jeep-renegade/jeep3.jpg",
+      "images/cars/jeep-renegade/jeep-4.jpg",
+    ],
+    description: "La BMW Série 3 représente l'excellence de la berline sportive allemande. Alliant luxe, technologie et performance pour une expérience de conduite exceptionnelle.",
+    features: [
+      "BMW iDrive 8.5",
+      "Système audio Harman Kardon",
+      "Suspension adaptative",
+      "Climatisation automatique",
+      "Sièges chauffants",
+      "Phares LED adaptatifs"
+    ],
+    specifications: {
+      transmission: "Automatique",
+      fuel: "Essence",
+      seats: 5,
+      luggage: "4 valises"
+    }
+  },
 ];
 
 export const getFeaturedCars = () => cars.slice(0, 4);
