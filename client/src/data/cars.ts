@@ -354,9 +354,9 @@ export const cars: Car[] = [
     name: "Audi A6", 
     category: "berline Premium",
     pricePerDay: 45000,
-    image: "/images/cars/audi-a6/a6-1_1749864669974.png",
+    image: "/images/cars/audi-a6/a6-1_1749864647977.png",
     gallery: [
-      "/images/cars/audi-a6/a6-1_1749864669974.png",
+      "/images/cars/audi-a6/a6-1_1749864647977.png",
       "/images/cars/audi-a6//a6-3_1749864647989.png",
       "/images/cars/audi-a6/a6-5_1749864647990.png",
     ],
