@@ -19,24 +19,24 @@ export default function RentalCalculator({ car }: RentalCalculatorProps) {
     
     // Tarifs pour 7 jours (en DA selon convention algérienne)
     const weeklyPrices: { [key: string]: number } = {
-      'audi a1': 130000, // 13 million = 130 000 DA
-      'volkswagen golf 8.5': 130000,
-      'seat león': 150000, // 15 million = 150 000 DA
-      'volkswagen golf 8 gtd': 210000, // 21 million = 210 000 DA (arrondi)
-      'volkswagen passat': 230000, // 23 million = 230 000 DA
-      'mercedes classe a 23/24': 230000,
-      'mercedes classe a limousine': 230000,
-      'porsche cayenne': 230000,
-      'volkswagen t-roc cabriolet': 230000,
-      'volkswagen tiguan nouveau': 290000, // 29 million = 290 000 DA
-      'audi q3': 290000,
-      'mercedes classe c nouvelle': 340000, // 34 million = 340 000 DA (arrondi)
-      'mercedes glc': 340000,
-      'porsche panamera': 370000, // 37 million = 370 000 DA
-      'mercedes cls maybach': 370000,
-      'porsche macan gts': 400000, // 40 million = 400 000 DA
-      'mercedes gle': 530000, // 53 million = 530 000 DA
-      'mercedes amg gts v8': 800000 // VIP - 80 million = 800 000 DA
+       'audi a1': 185000, // 18.5 million = 185 000 DA
+  'volkswagen golf 8.5': 328000, // même groupe que class a, passat, jeep...
+  'seat león': 214000, // 21.4 million = 214 000 DA
+  'volkswagen golf 8 gtd': 278000, // 27.8 million = 278 000 DA
+  'volkswagen passat': 328000,
+  'mercedes classe a 23/24': 328000,
+  'mercedes classe a limousine': 328000,
+  'porsche cayenne': 328000,
+  'volkswagen t-roc cabriolet': 278000,
+  'volkswagen tiguan nouveau': 415000,
+  'audi q3': 415000,
+  'mercedes classe c nouvelle': 479000,
+  'mercedes glc': 479000,
+  'porsche panamera': 529000,
+  'mercedes cls maybach': 529000,
+  'porsche macan gts': 400000, // tu ne m'as pas donné de groupe pour lui, je garde ancien prix
+  'mercedes gle': 760000,
+  'mercedes amg gts v8': 800000 // VIP inchangé
     };
 
     // Tarifs pour 15 jours (en DA selon convention algérienne)
