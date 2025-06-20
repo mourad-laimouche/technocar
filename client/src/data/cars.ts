@@ -565,7 +565,7 @@ export const cars: Car[] = [
     image: "/images/cars/jeep-renegade/jeep-1.jpg", // Photo principale
     gallery: [
       "images/cars/jeep-renegade/jeep-2.jpg",
-      "images/cars/jeep-renegade/jeep3.jpg",
+      "images/cars/jeep-renegade/jeep-3.jpg",
       "images/cars/jeep-renegade/jeep-4.jpg",
     ],
     description: "La BMW Série 3 représente l'excellence de la berline sportive allemande. Alliant luxe, technologie et performance pour une expérience de conduite exceptionnelle.",
