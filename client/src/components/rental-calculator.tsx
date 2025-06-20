@@ -205,8 +205,8 @@ export default function RentalCalculator({ car }: RentalCalculatorProps) {
             {/* Prix total */}
             <div className="flex justify-between items-center p-4 bg-primary/10 rounded-lg border border-primary/20">
               <span className="text-lg font-semibold flex items-center">
-                <DollarSign className="mr-2 h-5 w-5" />
-                Total ({days} {days === 1 ? 'jour' : 'jours'})
+        
+                Total <br />({days} {days === 1 ? 'jour' : 'jours'})
               </span>
               <div className="text-3xl font-bold text-primary">
                 {formatAlgerianPrice(totalPrice)} DA
