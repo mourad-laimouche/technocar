@@ -19,23 +19,29 @@ export default function RentalCalculator({ car }: RentalCalculatorProps) {
     
     // Tarifs pour 7 jours (en DA selon convention algérienne)
     const weeklyPrices: { [key: string]: number } = {
-       'audi a1': 185000, // 18.5 million = 185 000 DA
-  'volkswagen golf 8.5': 328000, // même groupe que class a, passat, jeep...
-  'seat león': 214000, // 21.4 million = 214 000 DA
-  'volkswagen golf 8 gtd': 278000, // 27.8 million = 278 000 DA
-  'volkswagen passat': 328000,
-  'mercedes classe a 23/24': 328000,
-  'mercedes classe a limousine': 328000,
-  'porsche cayenne': 328000,
-  'volkswagen t-roc cabriolet': 278000,
-  'volkswagen tiguan nouveau': 415000,
-  'audi q3': 415000,
-  'mercedes classe c nouvelle': 479000,
-  'mercedes glc': 479000,
-  'porsche panamera': 529000,
-  'mercedes cls maybach': 529000,
-  'porsche macan gts': 400000, // tu ne m'as pas donné de groupe pour lui, je garde ancien prix
-  'mercedes gle': 760000,
+      'audi a1': 129500,                    // 18500 × 7 = 129500
+'seat león': 149800,                 // 21400 × 7 = 149800
+
+'volkswagen golf 8 gtd': 194600,     // 27800 × 7 = 194600
+'volkswagen t-roc cabriolet': 194600,
+
+'volkswagen golf 8.5': 229600,       // 32800 × 7 = 229600
+'mercedes classe a 23/24': 229600,
+'volkswagen passat': 229600,
+'porsche cayenne': 229600,
+'jeep renegade': 229600,
+
+'volkswagen tiguan nouveau': 290500, // 41500 × 7 = 290500
+'audi q3': 290500,
+'audi a6': 290500,
+
+'mercedes classe c nouvelle': 335300, // 47900 × 7 = 335300
+'mercedes glc': 335300,
+
+'porsche panamera': 370300,          // 52900 × 7 = 370300
+'mercedes cls maybach': 370300,
+
+'mercedes gle': 532000,              // 76000 × 7 = 532000
   'mercedes amg gts v8': 800000 // VIP inchangé
     };
 
