@@ -568,20 +568,20 @@ export const cars: Car[] = [
       "/images/cars/jeep-renegade/jeep-3.jpg",
       "/images/cars/jeep-renegade/jeep-2.jpg",
     ],
-    description: "La BMW Série 3 représente l'excellence de la berline sportive allemande. Alliant luxe, technologie et performance pour une expérience de conduite exceptionnelle.",
+    description: "La Jeep Renegade incarne l’esprit d’aventure à l’américaine. Alliant robustesse, technologie moderne et design audacieux, elle offre une expérience de conduite unique, aussi bien en ville que sur les terrains les plus exigeants",
     features: [
-      "BMW iDrive 8.5",
-      "Système audio Harman Kardon",
-      "Suspension adaptative",
-      "Climatisation automatique",
-      "Sièges chauffants",
-      "Phares LED adaptatifs"
-    ],
-    specifications: {
-      transmission: "Automatique",
-      fuel: "Essence",
-      seats: 5,
-      luggage: "4 valises"
+  "Système Uconnect avec écran tactile",
+  "Compatible Apple CarPlay et Android Auto",
+  "Caméra de recul",
+  "Régulateur de vitesse adaptatif",
+  "Sièges avant chauffants",
+  "Feux LED automatiques"
+],
+specifications: {
+  transmission: "Automatique",
+  fuel: "Essence ou Diesel",
+  seats: 5,
+  luggage: "3 à 4 valises"
     }
   },
 ];
