@@ -63,7 +63,7 @@ export default function RentalCalculator({ car }: RentalCalculatorProps) {
 'mercedes glc': 660000,
 'porsche panamera': 741000,              // 49400 × 15
 'mercedes cls maybach': 741000,
-'porsche macan gts': 800000,             // inchangé car pas mentionné dans les groupes
+
 'mercedes gle': 990000,                  // 66000 × 15
 'mercedes amg gts v8': 1500000           // inchangé car VIP
     };
@@ -86,7 +86,7 @@ export default function RentalCalculator({ car }: RentalCalculatorProps) {
 'mercedes glc': 1320000,
 'porsche panamera': 1482000,             // 49400 × 30
 'mercedes cls maybach': 1482000,
-'porsche macan gts': 1480000,            // inchangé
+
 'mercedes gle': 1980000,                 // 66000 × 30
 'mercedes amg gts v8': 3000000           // inchangé (VIP)
 
