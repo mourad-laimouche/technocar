@@ -417,7 +417,7 @@ specifications: {
     pricePerDay: 35000,
     image: "/images/cars/volkswagen-passat/passat3.jpg",
     gallery: [
-      "./images/cars/volkswagen-passat/passat3.jpg",
+      "/images/cars/volkswagen-passat/passat3.jpg",
       "/images/cars/volkswagen-passat/passat1.jpg",
       "/images/cars/volkswagen-passat/passat4.jpg",
     ],
