@@ -47,46 +47,49 @@ export default function RentalCalculator({ car }: RentalCalculatorProps) {
 
     // Tarifs pour 15 jours (en DA selon convention algérienne)
     const fifteenDayPrices: { [key: string]: number } = {
-      'audi a1': 260000, // 26 million = 260 000 DA
-      'volkswagen golf 8.5': 260000,
-      'seat león': 280000, // 28 million = 280 000 DA
-      'volkswagen golf 8 gtd': 400000, // 40 million = 400 000 DA (arrondi)
-      'volkswagen passat': 440000, // 44 million = 440 000 DA
-      'mercedes classe a 23/24': 450000, // 45 million = 450 000 DA
-      'mercedes classe a limousine': 450000,
-      'porsche cayenne': 440000,
-      'volkswagen t-roc cabriolet': 440000,
-      'volkswagen tiguan nouveau': 580000, // 58 million = 580 000 DA
-      'audi q3': 580000,
-      'mercedes classe c nouvelle': 660000, // 66 million = 660 000 DA
-      'mercedes glc': 660000,
-      'porsche panamera': 740000, // 74 million = 740 000 DA
-      'mercedes cls maybach': 740000,
-      'porsche macan gts': 800000, // 80 million = 800 000 DA
-      'mercedes gle': 990000, // 99 million = 990 000 DA
-      'mercedes amg gts v8': 1500000 // VIP - 150 million = 1 500 000 DA
+      'audi a1': 255000,                        // 17000 × 15
+'volkswagen golf 8.5': 439500,           // 29300 × 15
+'seat león': 279000,                     // 18600 × 15
+'volkswagen golf 8 gtd': 375000,         // 25000 × 15
+'volkswagen passat': 439500,             // 29300 × 15
+'mercedes classe a 23/24': 439500,
+'mercedes classe a limousine': 439500,
+'porsche cayenne': 439500,
+'volkswagen t-roc cabriolet': 375000,    // 25000 × 15
+'volkswagen tiguan nouveau': 580500,     // 38700 × 15
+'audi q3': 580500,
+'audi a6': 580500,
+'mercedes classe c nouvelle': 660000,    // 44000 × 15
+'mercedes glc': 660000,
+'porsche panamera': 741000,              // 49400 × 15
+'mercedes cls maybach': 741000,
+'porsche macan gts': 800000,             // inchangé car pas mentionné dans les groupes
+'mercedes gle': 990000,                  // 66000 × 15
+'mercedes amg gts v8': 1500000           // inchangé car VIP
     };
 
     // Tarifs pour 1 mois (30 jours) - en DA selon convention algérienne
     const monthlyPrices: { [key: string]: number } = {
-      'audi a1': 390000, // 39 million = 390 000 DA
-      'volkswagen golf 8.5': 390000, // 39 million = 390 000 DA
-      'seat león': 440000, // 44 million = 440 000 DA
-      'volkswagen golf 8 gtd': 590000, // 59 million = 590 000 DA
-      'volkswagen passat': 750000, // 75 million = 750 000 DA
-      'mercedes classe a 23/24': 750000,
-      'mercedes classe a limousine': 750000,
-      'porsche cayenne': 690000, // 69 million = 690 000 DA
-      'volkswagen t-roc cabriolet': 690000, // 69 million = 690 000 DA
-      'volkswagen tiguan nouveau': 990000, // 99 million = 990 000 DA
-      'audi q3': 990000, // 99 million = 990 000 DA
-      'mercedes classe c nouvelle': 1180000, // 118 million = 1 180 000 DA
-      'mercedes glc': 1180000, // 118 million = 1 180 000 DA
-      'porsche panamera': 1230000, // 123 million = 1 230 000 DA
-      'mercedes cls maybach': 1500000, // 150 million = 1 500 000 DA
-      'porsche macan gts': 1480000, // 148 million = 1 480 000 DA
-      'mercedes gle': 1800000, // 180 million = 1 800 000 DA
-      'mercedes amg gts v8': 3000000 // VIP - 300 million = 3 000 000 DA
+     'audi a1': 510000,                        // 17000 × 30
+'volkswagen golf 8.5': 879000,           // 29300 × 30
+'seat león': 558000,                     // 18600 × 30
+'volkswagen golf 8 gtd': 750000,         // 25000 × 30
+'volkswagen passat': 879000,             // 29300 × 30
+'mercedes classe a 23/24': 879000,
+'mercedes classe a limousine': 879000,
+'porsche cayenne': 879000,
+'volkswagen t-roc cabriolet': 750000,    // 25000 × 30
+'volkswagen tiguan nouveau': 1161000,    // 38700 × 30
+'audi q3': 1161000,
+'audi a6': 1161000,
+'mercedes classe c nouvelle': 1320000,   // 44000 × 30
+'mercedes glc': 1320000,
+'porsche panamera': 1482000,             // 49400 × 30
+'mercedes cls maybach': 1482000,
+'porsche macan gts': 1480000,            // inchangé
+'mercedes gle': 1980000,                 // 66000 × 30
+'mercedes amg gts v8': 3000000           // inchangé (VIP)
+
     };
 
     // Calcul selon la durée
