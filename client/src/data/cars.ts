@@ -419,7 +419,7 @@ specifications: {
     gallery: [
       "/images/cars/volkswagen-passat/passat3.jpg",
       "/images/cars/volkswagen-passat/passat1.jpg",
-      "/images/cars/volkswagen-passat/passat4.jpg",
+      "/images/cars/volkswagen-passat/passat5.jpg",
     ],
     description: "La Volkswagen Passat incarne l'excellence de la berline familiale allemande. Spacieuse et élégante, parfaite pour les déplacements professionnels et familiaux.",
     features: [
