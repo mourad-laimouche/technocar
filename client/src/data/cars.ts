@@ -180,6 +180,7 @@ export const cars: Car[] = [
     gallery: [
       "/images/cars/mercedes-glc/glc-2.png",
       "/images/cars/mercedes-glc/glc-3.png",
+      "/images/cars/mercedes-glc/glc-1.png",
     ],
     description: "Le Mercedes GLC combine élégance sportive et polyvalence urbaine. Ce SUV premium offre le parfait équilibre entre performance et confort.",
     features: [
