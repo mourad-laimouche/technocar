@@ -54,7 +54,7 @@ export const cars: Car[] = [
     slug: "gle",
     name: "Mercedes GLC",
     category: "SUV Premium",
-    pricePerDay: 80000, // 8 million = 80 000 DA
+    pricePerDay: 50000, // 8 million = 80 000 DA
     image: "/images/cars/mercedes-glc/glc1.jpg",
     gallery: [
       "/images/cars/mercedes-glc/glc1.jpg",
@@ -178,7 +178,7 @@ export const cars: Car[] = [
     slug: "mercedes-glc",
     name: "Mercedes GLE",
     category: "SUV Premium",
-    pricePerDay: 50000,
+    pricePerDay: 80000,
     image: "/images/cars/mercedes-gle/gle-1.png",
     gallery: [
        "/images/cars/mercedes-gle/gle-1.png", 
