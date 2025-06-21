@@ -26,7 +26,7 @@ export default function Cars() {
           {/* 🔽 Tri en haut à gauche */}
           <div className="flex justify-between items-center mb-8">
             <div className="flex items-center">
-              <label className="mr-3 mt-10 font-semibold text-white text-lg">
+              <label className="mr-3 mb-4 font-semibold text-white text-lg">
                 Trier par :
               </label>
               <div className="relative">
