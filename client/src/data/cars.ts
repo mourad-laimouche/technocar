@@ -206,10 +206,11 @@ export const cars: Car[] = [
     name: "Volkswagen Tiguan Nouveau",
     category: "SUV Familial Premium", 
     pricePerDay: 45000,
-    image: "/images/cars/volkswagen-tiguan/tiguan-1.png",
+    image: "/images/cars/volkswagen-tiguan/tiguan1.jpg",
     gallery: [
-      "/images/cars/volkswagen-tiguan/tiguan-2.png",
-      "/images/cars/volkswagen-tiguan/tiguan-3.png",
+      "/images/cars/volkswagen-tiguan/tiguan2.jpg",
+      "/images/cars/volkswagen-tiguan/tiguan3.jpg",
+      "/images/cars/volkswagen-tiguan/tiguan4.png",
     ],
     description: "Le nouveau Volkswagen Tiguan représente l'évolution du SUV familial allemand. Design moderne et technologies avancées pour tous vos déplacements.",
     features: [
