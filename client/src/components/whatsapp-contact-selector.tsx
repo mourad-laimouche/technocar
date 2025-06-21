@@ -40,8 +40,8 @@ export default function WhatsAppContactSelector({ message = "Bonjour, je souhait
         <div className="space-y-3 pt-4">
           <p className="text-center text-muted-foreground mb-6">
             Choisissez un numéro pour nous contacter
-            <br />
-            <span className="text-xs text-gray-500">Le numéro principal est prioritaire, les autres sont des alternatives</span>
+          
+           
           </p>
           
           {WHATSAPP_NUMBERS.map((contact, index) => (

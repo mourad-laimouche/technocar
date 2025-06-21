@@ -40,8 +40,7 @@ export default function WhatsAppSelector({ carName, className }: WhatsAppSelecto
         <div className="space-y-3 pt-4">
           <p className="text-center text-muted-foreground mb-6">
             Sélectionnez un numéro pour réserver votre <strong>{carName}</strong>
-            <br />
-            <span className="text-xs text-gray-500">Le numéro principal est prioritaire, les autres sont des alternatives</span>
+           <br />
           </p>
           
           {WHATSAPP_NUMBERS.map((contact, index) => (
