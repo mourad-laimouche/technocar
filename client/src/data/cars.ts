@@ -557,6 +557,35 @@ specifications: {
   luggage: "3 à 4 valises"
     }
   },
+  {
+    id: "21", // Augmenter l'ID de 1
+    slug: "Audi-q3", // Nom unique pour l'URL
+    name: "Audi Q3", 
+    category: "SUV luxury",
+    pricePerDay: 35000, // Prix en DA
+    image: "/images/cars/Q3/Q3-1_1749866559805.png", // Photo principale
+    gallery: [
+      "/images/cars/Q3/Q3-1_1749866559805.png",
+      "/images/cars/Q3/Q3-5_1749866559829.png",
+      "/images/cars/Q3/Q3-8_1749866559831.png",
+    ],
+   description: "L’Audi Q3 associe le raffinement de la marque aux anneaux à la polyvalence d’un SUV compact. Dotée de technologies avancées, d’un design affirmé et d’un intérieur spacieux, elle offre une conduite dynamique et confortable au quotidien.",
+features: [
+  "Système MMI avec écran tactile HD",
+  "Compatibilité Apple CarPlay et Android Auto",
+  "Cockpit virtuel Audi",
+  "Caméra de recul et capteurs de stationnement",
+  "Éclairage LED intégral",
+  "Climatisation automatique bi-zone"
+],
+specifications: {
+  transmission: "Automatique S tronic",
+  fuel: "Essence",
+  seats: 5,
+  luggage: "4 valises"
+}
+
+  },
 ];
 
 export const getFeaturedCars = () => cars.slice(0, 4);
