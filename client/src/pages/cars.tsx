@@ -23,7 +23,7 @@ export default function Cars() {
       <div className="py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           {/* Titre + intro légèrement remontés */}
-          <div className="text-center mb-2">
+          <div className="text-center mb-8">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
               Notre <span className="text-primary">Flotte</span> Complète
             </h1>
@@ -33,7 +33,7 @@ export default function Cars() {
           </div>
 
           {/* 🎨 Sélecteur de tri stylisé sans rectangle */}
-          <div className="flex justify-center mb-6">
+          <div className="flex justify-center mb-10">
             <label className="mr-3 font-semibold text-white text-lg">
               Trier par :
             </label>
