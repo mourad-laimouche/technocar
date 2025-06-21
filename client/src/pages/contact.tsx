@@ -182,16 +182,16 @@ export default function Contact() {
                   <h3 className="text-2xl font-semibold mb-6 text-primary">Horaires d'ouverture</h3>
                   <div className="space-y-3">
                     <div className="flex justify-between">
-                      <span>Lundi - Vendredi</span>
-                      <span className="text-muted-foreground">8h00 - 19h00</span>
+                      <span>Dimanche - Jeudi</span>
+                      <span className="text-muted-foreground">9h00 - 21h00</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span>Vendredi</span>
+                      <span className="text-muted-foreground">15h00 - 00h00</span>
                     </div>
                     <div className="flex justify-between">
                       <span>Samedi</span>
-                      <span className="text-muted-foreground">9h00 - 17h00</span>
-                    </div>
-                    <div className="flex justify-between">
-                      <span>Dimanche</span>
-                      <span className="text-muted-foreground">10h00 - 16h00</span>
+                      <span className="text-muted-foreground">10h00 - 00h00</span>
                     </div>
                   </div>
                 </CardContent>

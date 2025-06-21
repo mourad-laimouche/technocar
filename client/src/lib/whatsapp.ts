@@ -1,9 +1,9 @@
 // Numéros WhatsApp TechnoCars
 export const WHATSAPP_NUMBERS = [
-  { number: "213698997346", label: "Principal - Réservations", type: "secondary" },
-  { number: "213773224651", label: "Numéro secondaire", type: "secondary" },
-  { number: "213540581231", label: "Numéro secondaire", type: "secondary" },
-  { number: "213540758856", label: "Numéro secondaire", type: "secondary" }
+  { number: "213698997346", label: "", type: "secondary" },
+  { number: "213773224651", label: "", type: "secondary" },
+  { number: "213540581231", label: "", type: "secondary" },
+  { number: "213540758856", label: "", type: "secondary" }
 ];
 
 export const createWhatsAppBookingLink = (carName: string, phoneNumber: string): string => {
