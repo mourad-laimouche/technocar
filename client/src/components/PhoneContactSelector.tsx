@@ -9,12 +9,11 @@ import {
 } from "@/components/ui/dialog";
 import { Phone, PhoneCall } from "lucide-react";
 
-// Liste des numéros de téléphone
 const PHONE_NUMBERS = [
-  { number: "213698997346", label: "Réservations" },
-  { number: "213773224651", label: "Assistance" },
-  { number: "213540581231", label: "Support clients" },
-  { number: "213540758856", label: "Service commercial" },
+  { number: "213698997346" },
+  { number: "213773224651" },
+  { number: "213540581231" },
+  { number: "213540758856" },
 ];
 
 interface PhoneContactSelectorProps {
@@ -58,18 +57,15 @@ export default function PhoneContactSelector({ className }: PhoneContactSelector
               key={index}
               variant="outline"
               size="lg"
-              className="w-full h-auto p-4 justify-start group hover:border-primary hover:bg-primary/10 transition-all"
+              className="w-full h-auto p-4 justify-start group hover:border-primary hover:bg-primary transition-all"
               onClick={() => handleNumberSelect(contact.number)}
             >
               <div className="flex items-center space-x-3 w-full">
-                <div className="p-2 rounded-full bg-primary text-white group-hover:text-black group-hover:bg-white transition">
+                <div className="p-2 rounded-full bg-primary text-white group-hover:bg-white group-hover:text-primary transition">
                   <PhoneCall className="w-4 h-4" />
                 </div>
                 <div className="text-left flex-1">
-                  <div className="font-semibold text-gray-500 group-hover:text-black transition">
-                    {contact.label}
-                  </div>
-                  <div className="text-sm text-gray-400 group-hover:text-gray-600 transition">
+                  <div className="font-semibold text-gray-500 group-hover:text-white transition">
                     +{contact.number}
                   </div>
                 </div>
