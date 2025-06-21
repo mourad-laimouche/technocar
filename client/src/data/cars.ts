@@ -272,11 +272,11 @@ export const cars: Car[] = [
     name: "Porsche Cayenne", 
     category: "SUV Premium",
     pricePerDay: 35000,
-    image: "/images/cars/cayenne/cayenne-1_1749865614866.png",
+    image: "/images/cars/cayenne/cayenne1.jpg",
     gallery: [
-      "/images/cars/cayenne/cayenne-2_1749865614877.png",
-      "/images/cars/cayenne/cayenne-3_1749865614877.png",
-      "/images/cars/cayenne/cayenne-4_1749865614878.png",
+      "ages/cars/cayenne/cayenne2.jpg",
+      "ages/cars/cayenne/cayenne3.jpg",
+      "ages/cars/cayenne/cayenne4.jpg",
     ],
     description: "Le Porsche Cayenne représente l'excellence du SUV sportif allemand. Alliant luxe et performance, il offre une expérience de conduite exceptionnelle.",
     features: [
