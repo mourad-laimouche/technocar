@@ -22,7 +22,7 @@ export default function Home() {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('https://www.shutterstock.com/image-illustration/elegant-big-hall-concrete-glossy-600nw-1420501355.jpg')`
+            backgroundImage: `url('/images/bg.png')`
           }}
         >
           <div className="absolute inset-0 bg-black/60"></div>
