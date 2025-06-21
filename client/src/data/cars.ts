@@ -562,7 +562,7 @@ specifications: {
     slug: "Audi-q3", // Nom unique pour l'URL
     name: "Audi Q3", 
     category: "SUV luxury",
-    pricePerDay: 35000, // Prix en DA
+    pricePerDay: 45000, // Prix en DA
     image: "/images/cars/Q3/Q3-1_1749866559805.png", // Photo principale
     gallery: [
       "/images/cars/Q3/Q3-1_1749866559805.png",
