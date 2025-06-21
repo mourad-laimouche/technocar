@@ -147,11 +147,12 @@ export const cars: Car[] = [
     name: "Mercedes Classe C Nouvelle", 
     category: "Berline Premium",
     pricePerDay: 50000,
-    image: "/images/cars/mercedes-a120/a120-1_1749864669974.png",
+    image: "/images/cars/mercedes-class-c/class-c1.jpg",
     gallery: [
-      "/images/cars/mercedes-a120/a120-2_1749864669960.png",
-      "/images/cars/mercedes-a120/a120-4_1749864669972.png",
-      "/images/cars/mercedes-a120/a120-5_1749864669973.png",
+      "/images/cars/mercedes-class-c/class-c1.jpg",
+      "/images/cars/mercedes-class-c/class-c2.jpg",
+      "/images/cars/mercedes-class-c/class-c3.jpg",
+        "/images/cars/mercedes-class-c/class-c4.jpg",
     ],
     description: "La nouvelle Mercedes Classe C incarne l'élégance et l'innovation de la berline premium allemande. Technologie avancée et confort raffiné.",
     features: [
