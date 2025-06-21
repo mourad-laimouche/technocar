@@ -54,7 +54,7 @@ export default function CarDetail() {
                   <Eye className="mr-2 h-4 w-4" />
                   Galerie Photos
                 </button>
-                <button
+             {/* View Mode Toggle *<button
                   onClick={() => setViewMode('360')}
                   className={`flex-1 py-2 px-4 rounded-md transition-all duration-300 flex items-center justify-center ${
                     viewMode === '360' 
@@ -64,7 +64,7 @@ export default function CarDetail() {
                 >
                   <RotateCcw className="mr-2 h-4 w-4" />
                   Vue 360°
-                </button>
+                </button> */} 
               </div>
 
               {/* Dynamic Content */}
