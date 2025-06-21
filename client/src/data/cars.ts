@@ -91,7 +91,7 @@ export const cars: Car[] = [
       "/images/cars/cls-maybach/maybach2.jpg",
       "/images/cars/cls-maybach/maybach3.jpg",
       "/images/cars/cls-maybach/maybach4.jpg",
-      "/images/cars/cls-maybach/maybach5.jpg",
+      "/images/cars/cls-maybach/maybach5.png",
     ],
     description: "La Mercedes CLS Maybach représente l'excellence du luxe automobile allemand. Cette berline coupé quatre portes allie élégance, performance et technologie de pointe.",
     features: [
