@@ -4,6 +4,7 @@ export interface Car {
   name: string;
   category: string;
   pricePerDay: number;
+   power?: number; // Puissance en chevaux (optionnel)
   image: string;
   gallery: string[];
   description: string;
@@ -24,6 +25,7 @@ export const cars: Car[] = [
     name: "Mercedes AMG GTS V8",
     category: "VIP Sport Luxury",
     pricePerDay: 150000, // 15 million = 150 000 DA
+    power: 515, // 515 chevaux
     image: "/images/cars/mercedes-amg-gts/main.png",
     gallery: [
       "/images/cars/mercedes-amg-gts/side.png",
