@@ -327,7 +327,7 @@ export const cars: Car[] = [
   {
     id: "12",
     slug: "mercedes-classe-a-limousine", 
-    name: "Mercedes Classe A Limousine",
+    name: "Mercedes Classe A",
     category: "Berline Compacte Premium",
     pricePerDay: 35000,
     image: "/images/cars/mercedes-a120/a120-1_1749864669974.png",
@@ -336,7 +336,7 @@ export const cars: Car[] = [
       "/images/cars/mercedes-a120/a120-4_1749864669972.png",
       "/images/cars/mercedes-a120/a120-5_1749864669973.png",
     ],
-    description: "La Mercedes Classe A Limousine combine élégance et performance dans un design compact premium. Technologie MBUX et confort raffiné.",
+    description: "La Mercedes Classe A combine élégance et performance dans un design compact premium. Technologie MBUX et confort raffiné.",
     features: [
       "MBUX Infotainment",
       "Caméras 360°", 

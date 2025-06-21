@@ -26,7 +26,7 @@ export default function RentalCalculator({ car }: RentalCalculatorProps) {
 'volkswagen t-roc cabriolet': 194600,
 
 'volkswagen golf 8.5': 229600,       // 32800 × 7 = 229600
-'mercedes classe a 23/24': 229600,
+'Mercedes Classe A': 229600,
 'volkswagen passat': 229600,
 'porsche cayenne': 229600,
 'jeep renegade': 229600,
@@ -53,8 +53,8 @@ export default function RentalCalculator({ car }: RentalCalculatorProps) {
 'seat león': 279000,                     // 18600 × 15
 'volkswagen golf 8 gtd': 375000,         // 25000 × 15
 'volkswagen passat': 439500,             // 29300 × 15
-'mercedes classe a 23/24': 439500,
-'mercedes classe a limousine': 439500,
+
+'Mercedes Classe A': 439500,
 'porsche cayenne': 439500,
 'volkswagen t-roc cabriolet': 375000,    // 25000 × 15
 'volkswagen tiguan nouveau': 580500,     // 38700 × 15
@@ -64,32 +64,32 @@ export default function RentalCalculator({ car }: RentalCalculatorProps) {
 'mercedes glc': 660000,
 'porsche panamera': 741000,              // 49400 × 15
 'mercedes cls maybach': 741000,
-
+'jeep renegade': 439500,
 'mercedes gle': 990000,                  // 66000 × 15
 'mercedes amg gts v8': 1500000           // inchangé car VIP
     };
 
     // Tarifs pour 1 mois (30 jours) - en DA selon convention algérienne
     const monthlyPrices: { [key: string]: number } = {
-     'audi a1': 510000,
-       'Golf style':  510000,                       // 17000 × 30
-'volkswagen golf 8.5': 879000,           // 29300 × 30
-'seat león': 558000,                     // 18600 × 30
-'volkswagen golf 8 gtd': 750000,         // 25000 × 30
-'volkswagen passat': 879000,             // 29300 × 30
-'mercedes classe a 23/24': 879000,
-'mercedes classe a limousine': 879000,
-'porsche cayenne': 879000,
-'volkswagen t-roc cabriolet': 750000,    // 25000 × 30
-'volkswagen tiguan nouveau': 1161000,    // 38700 × 30
-'audi q3': 1161000,
-'audi a6': 1161000,
-'mercedes classe c nouvelle': 1179000,   // 44000 × 30
-'mercedes glc': 1179000,
-'porsche panamera': 1482000,             // 49400 × 30
-'mercedes cls maybach': 1482000,
+     'audi a1': 429000,
+       'Golf style':  429000,                       
+'volkswagen golf 8.5': 720000,           // 29300 × 30
+'seat león': 438000,                     // 18600 × 30
+'volkswagen golf 8 gtd': 600000,         // 25000 × 30
+'volkswagen passat':720000,             // 29300 × 30
 
-'mercedes gle': 1980000,                 // 66000 × 30
+'Mercedes Classe A': 720000,
+'porsche cayenne': 720000,
+'volkswagen t-roc cabriolet': 600000,    // 25000 × 30
+'volkswagen tiguan nouveau': 1020000,    // 38700 × 30
+'audi q3': 1020000,
+'audi a6': 1020000,
+'mercedes classe c': 1179000,   // 44000 × 30
+'mercedes glc': 1179000,
+'porsche panamera': 1230000,           // 49400 × 30
+'mercedes cls maybach': 1230000,
+'jeep renegade':720000,
+'mercedes gle': 1800000,                 // 66000 × 30
 'mercedes amg gts v8': 3000000           // inchangé (VIP)
 
     };
