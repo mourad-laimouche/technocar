@@ -6,6 +6,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import WhatsAppContactSelector from "@/components/whatsapp-contact-selector";
 import { MapPin, Phone, MessageCircle, Mail } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
+import PhoneContactSelector from "@/components/PhoneContactSelector"; // adapte le chemin si besoin
 
 export default function Contact() {
   const { toast } = useToast();
@@ -199,12 +200,8 @@ export default function Contact() {
               {/* Quick Actions */}
               <div className="space-y-4">
                 <WhatsAppContactSelector className="w-full" />
-                <a href="tel:+213698997346" className="block">
-                  <Button className="w-full gold-button flex items-center justify-center">
-                    <Phone className="mr-2 h-4 w-4" />
-                    Appeler maintenant
-                  </Button>
-                </a>
+                <PhoneContactSelector className="w-full" />
+
               </div>
             </div>
           </div>
