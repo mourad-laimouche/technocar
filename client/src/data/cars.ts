@@ -179,12 +179,12 @@ export const cars: Car[] = [
     name: "Mercedes GLE",
     category: "SUV Premium",
     pricePerDay: 50000,
-    image: "/images/cars/mercedes-glc/gle-1.png",
+    image: "/images/cars/mercedes-gle/gle-1.png",
     gallery: [
-       "/images/cars/mercedes-glc/gle-1.png", 
-     "/images/cars/mercedes-glc/gle-2.png",  
-   "/images/cars/mercedes-glc/gle-3.png",
-      "/images/cars/mercedes-glc/gle-8.png",
+       "/images/cars/mercedes-gle/gle-1.png", 
+     "/images/cars/mercedes-gle/gle-2.png",  
+   "/images/cars/mercedes-gle/gle-3.png",
+      "/images/cars/mercedes-gle/gle-8.png",
     ],
     description: "Le Mercedes GLE combine élégance sportive et polyvalence urbaine. Ce SUV premium offre le parfait équilibre entre performance et confort.",
     features: [
