@@ -392,11 +392,11 @@ specifications: {
     name: "Volkswagen Golf 8.5", 
     category: "Compacte Premium",
     pricePerDay: 35000,
-    image: "/images/cars/volkswagen-golf-8r/8r-1.png",
+    image: "/images/cars/volkswagen-golf-8.5/golf8.5-1.jpg",
     gallery: [
-      "/images/cars/volkswagen-golf-8r/8r-2.png",
-      "/images/cars/volkswagen-golf-8r/8r-3.png",
-      "/images/cars/volkswagen-golf-8r/8r-4.png",
+      "/images/cars/volkswagen-golf-8.5/golf8.5-2.jpg",
+      "/images/cars/volkswagen-golf-8.5/golf8.5-3.jpg",
+      "/images/cars/volkswagen-golf-8.5/golf8.5-4.jpg",
     ],
     description: "La Volkswagen Golf 8.5 représente l'évolution de la compacte de référence. Design affiné et technologies mises à jour pour une expérience optimisée.",
     features: [
