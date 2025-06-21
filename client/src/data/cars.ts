@@ -147,7 +147,7 @@ export const cars: Car[] = [
     name: "Mercedes Classe C Nouvelle", 
     category: "Berline Premium",
     pricePerDay: 50000,
-    image: "/images/cars/mercedes-class-c/class-c1.jpg",
+    image: "/images/cars/mercedes-class-c/class-c4.jpg",
     gallery: [
       "/images/cars/mercedes-class-c/class-c1.jpg",
       "/images/cars/mercedes-class-c/class-c2.jpg",
