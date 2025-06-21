@@ -52,15 +52,16 @@ export const cars: Car[] = [
   {
     id: "2", 
     slug: "gle",
-    name: "Mercedes GLE",
+    name: "Mercedes GLC",
     category: "SUV Premium",
     pricePerDay: 80000, // 8 million = 80 000 DA
-    image: "/images/cars/mercedes-glc/glc-1.png",
+    image: "/images/cars/mercedes-glc/glc1.jpg",
     gallery: [
-      "/images/cars/mercedes-glc/glc-2.png",
-      "/images/cars/mercedes-glc/glc-3.png",
+      "/images/cars/mercedes-glc/glc1.jpg",
+      "/images/cars/mercedes-glc/glc2.jpg",
+      "/images/cars/mercedes-glc/glc3.jpg",
     ],
-    description: "Le Mercedes GLE représente l'excellence du SUV de luxe allemand. Spacieux et technologique, il offre confort et prestance pour tous vos déplacements.",
+    description: "Le Mercedes GLC représente l'excellence du SUV de luxe allemand. Spacieux et technologique, il offre confort et prestance pour tous vos déplacements.",
     features: [
       "MBUX système multimédia",
       "Caméras 360° surround", 
@@ -175,16 +176,17 @@ export const cars: Car[] = [
   {
     id: "7", 
     slug: "mercedes-glc",
-    name: "Mercedes GLC",
+    name: "Mercedes GLE",
     category: "SUV Premium",
     pricePerDay: 50000,
-    image: "/images/cars/mercedes-glc/glc-1.png",
+    image: "/images/cars/mercedes-glc/gle-1.png",
     gallery: [
-       "/images/cars/mercedes-glc/glc-1.png", 
-     "/images/cars/mercedes-glc/glc-2.png",  
-   "/images/cars/mercedes-glc/glc-3.png",
+       "/images/cars/mercedes-glc/gle-1.png", 
+     "/images/cars/mercedes-glc/gle-2.png",  
+   "/images/cars/mercedes-glc/gle-3.png",
+      "/images/cars/mercedes-glc/gle-8.png",
     ],
-    description: "Le Mercedes GLC combine élégance sportive et polyvalence urbaine. Ce SUV premium offre le parfait équilibre entre performance et confort.",
+    description: "Le Mercedes GLE combine élégance sportive et polyvalence urbaine. Ce SUV premium offre le parfait équilibre entre performance et confort.",
     features: [
       "MBUX système multimédia",
       "Caméras 360° surround",
