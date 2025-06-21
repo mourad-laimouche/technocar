@@ -586,6 +586,36 @@ specifications: {
 }
 
   },
+   {
+    id: "22", // Augmenter l'ID de 1
+    slug: "golf-style", // Nom unique pour l'URL
+    name: "Golf style", 
+    category: "Compacte Premium",
+    pricePerDay: 20000, // Prix en DA
+    image: "/images/cars/Q3/Q3-1_1749866559805.png", // Photo principale
+    gallery: [
+      "/images/cars/Q3/Q3-1_1749866559805.png",
+      "/images/cars/Q3/Q3-5_1749866559829.png",
+      "/images/cars/Q3/Q3-8_1749866559831.png",
+    ],
+   description: "La Golf 8 Style incarne l’équilibre parfait entre design moderne, confort et technologies intelligentes. Élégante et connectée, elle offre une expérience de conduite fluide, aussi agréable en ville que sur autoroute.",
+features: [
+  "Digital Cockpit Pro 10,25 pouces",
+  "Système d’infodivertissement avec écran tactile",
+  "Compatibilité Apple CarPlay et Android Auto sans fil",
+  "Éclairage IQ.Light à LED Matrix",
+  "Aide au maintien dans la voie",
+  "Climatisation automatique tri-zone"
+],
+specifications: {
+  transmission: "Automatique DSG ou Manuelle",
+  fuel: "Essence ou Diesel",
+  seats: 5,
+  luggage: "4 valises"
+}
+
+
+  },
 ];
 
 export const getFeaturedCars = () => cars.slice(0, 4);
