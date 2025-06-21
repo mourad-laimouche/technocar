@@ -84,8 +84,8 @@ export default function RentalCalculator({ car }: RentalCalculatorProps) {
 'volkswagen tiguan nouveau': 1161000,    // 38700 × 30
 'audi q3': 1161000,
 'audi a6': 1161000,
-'mercedes classe c nouvelle': 1320000,   // 44000 × 30
-'mercedes glc': 1320000,
+'mercedes classe c nouvelle': 1179000,   // 44000 × 30
+'mercedes glc': 1179000,
 'porsche panamera': 1482000,             // 49400 × 30
 'mercedes cls maybach': 1482000,
 
