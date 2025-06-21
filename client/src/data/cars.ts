@@ -147,7 +147,7 @@ export const cars: Car[] = [
   {
     id: "6",
     slug: "mercedes-classe-c-nouvelle",
-    name: "Mercedes Classe C Nouvelle", 
+    name: "Mercedes Classe C", 
     category: "Berline Premium",
     pricePerDay: 50000,
     image: "/images/cars/mercedes-class-c/class-c4.jpg",
@@ -157,7 +157,7 @@ export const cars: Car[] = [
       "/images/cars/mercedes-class-c/class-c3.jpg",
         "/images/cars/mercedes-class-c/class-c4.jpg",
     ],
-    description: "La nouvelle Mercedes Classe C incarne l'élégance et l'innovation de la berline premium allemande. Technologie avancée et confort raffiné.",
+    description: "La Mercedes Classe C incarne l'élégance et l'innovation de la berline premium allemande. Technologie avancée et confort raffiné.",
     features: [
       "MBUX Infotainment nouvelle génération",
       "Caméras 360° haute résolution",
