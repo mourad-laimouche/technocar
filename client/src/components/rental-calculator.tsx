@@ -21,7 +21,7 @@ export default function RentalCalculator({ car }: RentalCalculatorProps) {
     const weeklyPrices: { [key: string]: number } = {
       'audi a1': 129500,                    // 18500 × 7 = 129500
 'seat león': 149800,                 // 21400 × 7 = 149800
-
+'Golf style': 129500, 
 'volkswagen golf 8 gtd': 194600,     // 27800 × 7 = 194600
 'volkswagen t-roc cabriolet': 194600,
 
@@ -47,7 +47,8 @@ export default function RentalCalculator({ car }: RentalCalculatorProps) {
 
     // Tarifs pour 15 jours (en DA selon convention algérienne)
     const fifteenDayPrices: { [key: string]: number } = {
-      'audi a1': 255000,                        // 17000 × 15
+      'audi a1': 255000,    
+      'Golf style':  255000,                  // 17000 × 15
 'volkswagen golf 8.5': 439500,           // 29300 × 15
 'seat león': 279000,                     // 18600 × 15
 'volkswagen golf 8 gtd': 375000,         // 25000 × 15
@@ -70,7 +71,8 @@ export default function RentalCalculator({ car }: RentalCalculatorProps) {
 
     // Tarifs pour 1 mois (30 jours) - en DA selon convention algérienne
     const monthlyPrices: { [key: string]: number } = {
-     'audi a1': 510000,                        // 17000 × 30
+     'audi a1': 510000,
+       'Golf style':  510000,                       // 17000 × 30
 'volkswagen golf 8.5': 879000,           // 29300 × 30
 'seat león': 558000,                     // 18600 × 30
 'volkswagen golf 8 gtd': 750000,         // 25000 × 30
