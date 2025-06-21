@@ -86,11 +86,12 @@ export const cars: Car[] = [
     name: "Mercedes CLS Maybach",
     category: "Berline Luxury",
     pricePerDay: 60000,
-    image: "/images/cars/cls-maybach/CLS 1_1749865701939.png",
+    image: "/images/cars/cls-maybach/maybach1.jpg",
     gallery: [
-      "/images/cars/cls-maybach/CLS 3_1749865701950.png",
-      "/images/cars/cls-maybach/CLS 5_1749865701951.png",
-      "/images/cars/cls-maybach/CLS 10_1749865701952.png",
+      "/images/cars/cls-maybach/maybach2.jpg",
+      "/images/cars/cls-maybach/maybach3.jpg",
+      "/images/cars/cls-maybach/maybach4.jpg",
+      "/images/cars/cls-maybach/maybach5.jpg",
     ],
     description: "La Mercedes CLS Maybach représente l'excellence du luxe automobile allemand. Cette berline coupé quatre portes allie élégance, performance et technologie de pointe.",
     features: [
